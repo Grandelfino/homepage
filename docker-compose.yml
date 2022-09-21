@@ -1,0 +1,17 @@
+version: "3"
+services:
+  app:
+    build: ./
+    container_name: 'launch-dev'
+    working_dir: /home/node/app
+    tty: true
+    ports:
+      - '8000:8000'
+    volumes:
+      - node_modules:/home/node/app/node_modules
+      - ./:/home/node/app
+    command: >
+      npx gatsby develop --host=0.0.0.0
+
+volumes:
+  node_modules:
