@@ -6,7 +6,7 @@
   Grandelfino Homepage Gatsby
 </h1>
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/745c6495-0d2b-4199-890c-4aa0bc7a744d/deploy-status)](https://app.netlify.com/sites/papaya-malabi-2d07e7/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/22e7a2bc-aaa4-4d57-8324-a5673854f30e/deploy-status)](https://app.netlify.com/sites/splendorous-granita-82ce05/deploys)
 
 ## 🚀 Quick start
 
