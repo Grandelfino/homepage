@@ -102,17 +102,6 @@ const SEO = ({ title, desc, banner, pathname, article }) => (
           <meta name="twitter:title" content={seo.title} />
           <meta name="twitter:description" content={seo.description} />
           <meta name="twitter:image" content={seo.image} />
-
-          {/*  Robotoフォント読み込み */}
-          <link
-            rel="stylesheet"
-            href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
-          />
-          {/* Noto Sans JPフォント読み込み */}
-          <link
-            rel="stylesheet"
-            href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&display=swap"
-          />
         </>
       )
     }}
