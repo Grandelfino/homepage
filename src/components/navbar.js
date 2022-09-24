@@ -254,7 +254,7 @@ export default function NavBar(props) {
                 <MenuIcon />
               </IconButton>
             </Box>
-            <Typography variant="h4" sx={{ flexGrow: 1 }}>
+            <Typography variant="h4" fontWeight={'bold'} sx={{ flexGrow: 1 }}>
               {props.title}
             </Typography>
             <Drawer open={isOpen} onClose={closeDrawer}>

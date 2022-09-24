@@ -52,6 +52,22 @@ theme.typography.h1 = {
   },
 }
 
+theme.typography.h2 = {
+  fontSize: '5rem',
+  marginTop: theme.spacing(10),
+  fontWeight: 'bold',
+  color: 'white',
+  letterSpacing: '1px',
+  [theme.breakpoints.down('lg')]: {
+    marginTop: theme.spacing(10),
+    fontSize: '4rem',
+  },
+  [theme.breakpoints.down('sm')]: {
+    marginTop: theme.spacing(10),
+    fontSize: '3rem',
+  },
+}
+
 theme.typography.h4 = {
   fontSize: '2rem',
   color: 'gainsboro',
@@ -68,6 +84,9 @@ theme.typography.h4 = {
 theme.typography.body1 = {
   fontSize: '1.5rem',
   color: 'white',
+  [theme.breakpoints.down('md')]: {
+    fontSize: '1rem',
+  },
 }
 
 const About_SAE = () => {
@@ -97,7 +116,9 @@ const About_SAE = () => {
               <StaticImage src="../images/sae/JFSAE_logo.png" />
             </CardMedia>
             <CardContent>
-              <Typography variant="h2">全日本学生フォーミュラ</Typography>
+              <Typography variant="h2" fontSize={{ sm: '3rem', xs: '1.4rem' }}>
+                全日本学生フォーミュラ
+              </Typography>
               <Typography variant="body1">
                 全日本学生フォーミュラ大会はFormula
                 SAEの日本版として、同様の理念の下、社団法人自動車技術会の主催で、
@@ -189,7 +210,7 @@ const Hero = () => {
                 学生に仮想企業を運営させ、
                 実践的な知識を身に付けさせることにあります。
               </Typography>
-              <Typography variant="body1">
+              <Typography variant="body1" sx={{ pb: 5 }}>
                 現在、アメリカでは140校を超える大学チームが国内外からも参加する国際的な大会になっています。
                 また、1998年にはイギリスで、2000年にはオーストラリアで、さらにはドイツ、イタリア、ブラジルで
                 同様のルールによる競技が開催されています。

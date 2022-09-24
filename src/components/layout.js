@@ -29,6 +29,9 @@ export default function Layout(props) {
     fontWeight: 500,
     lineHeight: 1.75,
     letterSpacing: '-0.035em',
+    [theme.breakpoints.only('xs')]: {
+      fontSize: '2rem',
+    },
   }
   theme.typography.h2 = {
     fontSize: '1.65rem',

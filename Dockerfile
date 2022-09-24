@@ -1,4 +1,4 @@
-FROM node:18.9.0-alpine3.16
+FROM node:18-alpine3.15
 WORKDIR /home/node/app
 
 RUN apk update && \
@@ -8,4 +8,4 @@ RUN apk update && \
 
 COPY package.json package-lock.json /home/node/app/
 
-RUN npm i
+RUN npm ci

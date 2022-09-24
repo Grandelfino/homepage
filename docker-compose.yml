@@ -8,10 +8,12 @@ services:
     ports:
       - '8000:8000'
     volumes:
+      - .:/home/node/app
       - node_modules:/home/node/app/node_modules
-      - ./:/home/node/app
+      - cache:/home/node/app/.cache
     command: >
-      npx gatsby develop --host=0.0.0.0
+      npm run develop
 
 volumes:
   node_modules:
+  cache:
