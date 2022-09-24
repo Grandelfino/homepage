@@ -255,7 +255,7 @@ export default function NavBar(props) {
               </IconButton>
             </Box>
             <Typography variant="h4" fontWeight={'bold'} sx={{ flexGrow: 1 }}>
-              {props.title}
+              {props.title != null ? props.title : 'Grandelfino'}
             </Typography>
             <Drawer open={isOpen} onClose={closeDrawer}>
               {sideList}
