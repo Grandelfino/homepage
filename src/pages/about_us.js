@@ -33,7 +33,7 @@ const AboutUS = () => (
             </Typography>
           </Grid>
           <Grid item sm={4} xs={12} alignItems="center">
-            <StaticImage src="../images/teamlogo.png" />
+            <StaticImage src="../images/teamlogo.png" alt="teamlogo" />
           </Grid>
         </Grid>
         <Typography variant="h1">活動内容</Typography>

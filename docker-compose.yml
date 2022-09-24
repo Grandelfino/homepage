@@ -8,12 +8,11 @@ services:
     ports:
       - '8000:8000'
     volumes:
-      - .:/home/node/app
-      - node_modules:/home/node/app/node_modules
-      - cache:/home/node/app/.cache
+      - ./src:/home/node/app/src
+      - ./config:/home/node/app/config
+      - ./gatsby-browser.js:/home/node/app/gatsby-browser.js
+      - ./gatsby-config.js:/home/node/app/gatsby-config.js
+      - ./package.json:/home/node/app/package.json
+      - ./.env:/home/node/app/.env
     command: >
       npm run develop
-
-volumes:
-  node_modules:
-  cache:

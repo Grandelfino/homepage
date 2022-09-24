@@ -37,9 +37,9 @@ const Machines = ({ data }) => (
         <Typography variant="h1">歴代車両</Typography>
         <Box>
           {data.allContentfulMachine.edges.map(({ node }) => (
-            <>
+            <div key={node.id}>
               <MachineCard node={node} />
-            </>
+            </div>
           ))}
         </Box>
       </Paper>
@@ -49,12 +49,18 @@ const Machines = ({ data }) => (
 
 const MachineCard = ({ node }) => {
   const src = node.image != null ? node.image.url : noImg
+  const alt = node.image != null ? node.image.filename : 'noImg'
   const entry =
     node.competition != null ? '/history#' + node.competition.year : '/history'
   return (
     <>
       <Card sx={{ m: 2 }} elevation={3}>
-        <CardMedia component="img" src={src} sx={{ maxHeight: '350px' }} />
+        <CardMedia
+          component="img"
+          src={src}
+          alt={alt}
+          sx={{ maxHeight: '350px' }}
+        />
         <CardContent>
           <Typography variant="h3">{node.carName}</Typography>
           <Typography variant="body1">
@@ -90,6 +96,7 @@ export const query = graphql`
           carName
           image {
             url
+            filename
           }
           description {
             description

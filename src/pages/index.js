@@ -110,7 +110,7 @@ const AboutUS = () => {
         <Typography variant="body1" fontSize="1.2rem">
           Grandelfinoは京都工芸繊維大学の学生フォーミュラプロジェクトチームです。2007年度大会から参戦し、2012・2016・2017・2022年度には総合優勝を果たしました。
         </Typography>
-        <Card elevation={1} variant="outlined" sx={{ maxWidth: 600 }}>
+        <Card variant="outlined" sx={{ maxWidth: 600 }}>
           <CardMedia>
             <StaticImage src="../images/index/index_2.png" alt="Top page" />
           </CardMedia>
@@ -139,7 +139,7 @@ const AboutSAE = () => {
           全日本学生フォーミュラ大会は大学生が自らの手でフォーミュラカーを製作し、
           競い合うことで、モノづくりの実践的な知識を身につけようというものです。
         </Typography>
-        <Card elevation={1} variant="outlined" sx={{ maxWidth: 600 }}>
+        <Card variant="outlined" sx={{ maxWidth: 600 }}>
           <CardMedia>
             <StaticImage src="../images/sae/JFSAE_logo.png" alt="sae_logo" />
           </CardMedia>

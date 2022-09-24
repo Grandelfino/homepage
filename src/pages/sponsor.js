@@ -101,13 +101,7 @@ const SponsorCard = ({ node }) => {
         </CardContent>
         <Divider sx={{ mt: 'auto' }} />
         <CardActions>
-          <Button
-            size="large"
-            color="primary"
-            component={Link}
-            to={node.url}
-            target="_blank"
-          >
+          <Button size="large" color="primary" href={node.url} target="_blank">
             スポンサー様HPへ
           </Button>
         </CardActions>

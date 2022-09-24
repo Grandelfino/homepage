@@ -50,6 +50,9 @@ export default function Layout(props) {
     fontWeight: 400,
     lineHeight: 1.5,
     letterSpacing: '-0.02em',
+    [theme.breakpoints.only('xs')]: {
+      fontSize: '1.1rem',
+    },
   }
   theme.body1 = {
     lineHeight: 1.7,

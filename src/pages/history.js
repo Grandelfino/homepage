@@ -20,30 +20,28 @@ const History = ({ data }) => {
       <Layout title={'Grandelfino - 大会成績'}>
         <Paper elevation={3} sx={{ p: 3 }}>
           {data.allContentfulHistory.edges.map(({ node }) => (
-            <>
-              <div id={node.year}>
-                <Typography variant="h1">{node.year}</Typography>
-                <Typography variant="h2">{node.title}</Typography>
-                <ul>
-                  <li>
-                    開催日: {node.startDate} ～ {node.endDate}
-                  </li>
-                  <li>開催地: {node.place}</li>
-                  <li>出場チーム数: {node.teams}</li>
-                  <li>大会車両番号: {node.carNum}</li>
-                  <li>参加車両: {node.carName}</li>
-                </ul>
-                <Typography variant="body1"></Typography>
-                <Box sx={{ m: 1 }}>
-                  <ScoreTableContainer>
-                    <ScoreTableBody node={node} />
-                  </ScoreTableContainer>
-                  <AwardTableContainer>
-                    <AwardTableBody node={node} />
-                  </AwardTableContainer>
-                </Box>
-              </div>
-            </>
+            <div id={node.year} key={node.id}>
+              <Typography variant="h1">{node.year}</Typography>
+              <Typography variant="h2">{node.title}</Typography>
+              <ul>
+                <li>
+                  開催日: {node.startDate} ～ {node.endDate}
+                </li>
+                <li>開催地: {node.place}</li>
+                <li>出場チーム数: {node.teams}</li>
+                <li>大会車両番号: {node.carNum}</li>
+                <li>参加車両: {node.carName}</li>
+              </ul>
+              <Typography variant="body1"></Typography>
+              <Box sx={{ m: 1 }}>
+                <ScoreTableContainer>
+                  <ScoreTableBody node={node} />
+                </ScoreTableContainer>
+                <AwardTableContainer>
+                  <AwardTableBody node={node} />
+                </AwardTableContainer>
+              </Box>
+            </div>
           ))}
         </Paper>
       </Layout>
@@ -234,6 +232,7 @@ export const query = graphql`
     allContentfulHistory(sort: { order: DESC, fields: year }) {
       edges {
         node {
+          id
           accFullmark
           accRank
           accScore
