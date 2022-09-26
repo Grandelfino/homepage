@@ -61,10 +61,12 @@ const Hero = () => {
     >
       <CssBaseline />
       <StaticImage
-        src="../images/index/index_1.jpg"
+        src="../images/index/index_5.jpg"
         alt="Top page"
         style={{
           gridArea: '1/1',
+          maxHeight: "480px",
+          filter: "brightness(0.5)"
         }}
         layout="fullWidth"
       />
