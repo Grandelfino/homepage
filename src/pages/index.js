@@ -112,7 +112,7 @@ const AboutUS = () => {
         </Typography>
         <Card variant="outlined" sx={{ maxWidth: 600 }}>
           <CardMedia>
-            <StaticImage src="../images/index/index_2.png" alt="Top page" />
+            <StaticImage src="../images/index/index_4.jpg" alt="Top page" />
           </CardMedia>
         </Card>
         <Button
@@ -158,6 +158,8 @@ const AboutSAE = () => {
     </Grid>
   )
 }
+
+
 
 const AboutSponsor = () => {
   return (
