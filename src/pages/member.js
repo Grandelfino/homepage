@@ -19,6 +19,9 @@ const Member = ({ data }) => {
   const FA = data.allContentfulMember.edges.filter(
     ({ node }) => node.role == 'FA'
   )
+  const advisor = data.allContentfulMember.edges.filter(
+    ({ node }) => node.role == 'advisor'
+  )
   return (
     <>
       <Layout title={'Grandelfino - メンバー紹介'}>
@@ -44,6 +47,11 @@ const Member = ({ data }) => {
             「自立するために必要な部品」を主に担当しています。
           </Typography>
           <MemberList member={chassis} />
+          <Typography variant="h2">アドバイザー</Typography>
+          <Typography variant="body1">
+            アドバイザーは主に3年生以上のメンバーが、技術や経験を活かして現役のメンバーを支える役割を担います。
+          </Typography>
+          <MemberList member={advisor} />
           <Typography variant="h2">指導教員(Faculty Advisor)</Typography>
           <Typography variant="body1">
             技術・知識・渉外等、学生には至らない部分においてアドバイスをいただいたり、活動を行う上での正式な顧問として在籍していただいております。

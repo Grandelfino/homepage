@@ -65,8 +65,8 @@ const Hero = () => {
         alt="Top page"
         style={{
           gridArea: '1/1',
-          maxHeight: "480px",
-          filter: "brightness(0.4)"
+          maxHeight: '480px',
+          filter: 'brightness(0.5)',
         }}
         layout="fullWidth"
       />
@@ -160,8 +160,6 @@ const AboutSAE = () => {
     </Grid>
   )
 }
-
-
 
 const AboutSponsor = () => {
   return (
