@@ -78,7 +78,7 @@ const MemberList = ({ member }) => {
             <Card sx={{ flexGrow: 1 }} elevation={2}>
               <Box sx={{ display: { sm: 'inline', md: 'flex' } }}>
                 <CardContent sx={{ display: 'flex', alignItems: 'center' }}>
-                  <Typography variant="h4">{node.name}</Typography>
+                  <Typography variant="h4" sx={{fontWeight: 'bold'}}>{node.name}</Typography>
                 </CardContent>
                 <CardContent>
                   <Typography>{node.grade}</Typography>
