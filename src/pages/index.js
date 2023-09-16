@@ -109,8 +109,25 @@ const AboutUS = () => {
     <Grid align="center">
       <Box p={3}>
         <Typography variant="h1">Grandelfino</Typography>
+        
         <Typography variant="body1" fontSize="1.2rem">
-          Grandelfinoは京都工芸繊維大学の学生フォーミュラプロジェクトチームです。2007年度大会から参戦し、2012・2016・2017・2022年度には総合優勝を果たしました。
+          クラウドファインディング実施中です！
+          </Typography>
+        <Button
+         href = "https://readyfor.jp/projects/grandelfino">
+         こちらから！
+         </Button>
+         <Card variant="outlined" sx={{ maxWidth: 600 }}>
+          <CardMedia>
+            <StaticImage src="../images/index/index_9.jpg" alt="Top page" />
+          </CardMedia>
+        </Card>
+        <br />
+        <br />
+        <Typography variant="body1" fontSize="1.2rem">
+          Grandelfinoは京都工芸繊維大学の学生フォーミュラプロジェクトチームです。
+          <br />
+          2007年度大会から参戦し、2012・2016・2017・2022・2023年度には総合優勝を果たしました。
         </Typography>
         <Card variant="outlined" sx={{ maxWidth: 600 }}>
           <CardMedia>
