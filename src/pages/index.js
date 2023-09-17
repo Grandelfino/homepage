@@ -111,11 +111,11 @@ const AboutUS = () => {
         <Typography variant="h1">Grandelfino</Typography>
         
         <Typography variant="body1" fontSize="1.2rem">
-          クラウドファインディング実施中です！
+          クラウドファインディング実施中！
           </Typography>
         <Button
          href = "https://readyfor.jp/projects/grandelfino">
-         こちらから！
+         サイトはこちらから
          </Button>
          <Card variant="outlined" sx={{ maxWidth: 600 }}>
           <CardMedia>
