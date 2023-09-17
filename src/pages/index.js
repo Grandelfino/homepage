@@ -4,7 +4,7 @@ import SEO from '../components/head'
 import Layout from '../components/layout'
 import { Box, Paper, Typography } from '@mui/material'
 import { Link } from 'gatsby'
-import { Card, CardMedia, Grid } from '@mui/material'
+import { Card, CardMedia, CardActionArea, Grid } from '@mui/material'
 import { CssBaseline } from '@mui/material'
 import { StaticImage } from 'gatsby-plugin-image'
 
@@ -117,10 +117,12 @@ const AboutUS = () => {
          href = "https://readyfor.jp/projects/grandelfino">
          こちらから！
          </Button>
-         <Card variant="outlined" sx={{ maxWidth: 600 }}>
-          <CardMedia>
-            <StaticImage src="../images/index/index_9.jpg" alt="Top page" />
-          </CardMedia>
+         <Card variant="outlined" sx={{ maxWidth: 600, '&:hover': {color: 'black'}}}>
+          <CardActionArea href="https://readyfor.jp/projects/grandelfino">
+            <CardMedia>
+              <StaticImage src="../images/index/index_9.jpg" alt="Top page" />
+            </CardMedia>
+          </CardActionArea>
         </Card>
         <br />
         <br />
