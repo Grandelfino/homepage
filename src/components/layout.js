@@ -9,6 +9,7 @@ import { Box } from '@mui/system'
 import { Grid, Typography } from '@mui/material'
 import TwitterIcon from '@mui/icons-material/Twitter'
 import FacebookIcon from '@mui/icons-material/Facebook'
+import InstagramIcon from '@mui/icons-material/Instagram'
 import { Link } from 'gatsby'
 
 const StyledLink = styled(Link)`
@@ -43,8 +44,16 @@ const FootNav = () => {
           <Link
             to="https://www.facebook.com/people/Formula-SAE-Project-Team-Grandelfino/100066444980272/"
             target="_blank"
+            style={{ margin: '5px' }}
           >
             <FacebookIcon fontSize="large" sx={{ color: 'white' }} />
+          </Link>
+          <Link
+            to="https://www.instagram.com/grandelfino/"
+            target="_blank"
+            style={{ margin: '5px' }}
+          >
+            <InstagramIcon fontSize="large" sx={{ color: 'white' }} />
           </Link>
         </Grid>
         <Grid item xs={12} md={3} sx={{ mt: 1 }}>

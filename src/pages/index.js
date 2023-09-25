@@ -133,7 +133,7 @@ const AboutUS = () => {
         </Typography>
         <Card variant="outlined" sx={{ maxWidth: 600 }}>
           <CardMedia>
-            <StaticImage src="../images/index/index_4.jpg" alt="Top page" />
+            <StaticImage src="../images/index/index_6.jpg" alt="Top page" />
           </CardMedia>
         </Card>
         <Button

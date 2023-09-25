@@ -53,9 +53,8 @@ const Dynamic = () => {
             <Grid item xs={12} sm={8} alignItems="center">
               <Typography variant="h2">オートクロス</Typography>
               <Typography variant="body1">
-                事前に提出する設計資料と実際の車両をもとに、どのような技術が使われているか、どのような工夫がなされているのか
-                などを口頭質問を交えて評価されます。
-                静的審査の中では最も得点配分の大きい審査です。
+                決められたコースを走行し、速さを競います。
+                こちらも各チーム2人のドライバーが走行し、タイムアタックを行います。
               </Typography>
             </Grid>
             <Grid item xs={12} sm={4}>
