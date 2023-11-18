@@ -61,7 +61,7 @@ const Hero = () => {
     >
       <CssBaseline />
       <StaticImage
-        src="../images/index/index_8.jpg"
+        src="../images/index/index_1.jpg"
         alt="Top page"
         style={{
           gridArea: '1/1',
@@ -109,18 +109,16 @@ const AboutUS = () => {
     <Grid align="center">
       <Box p={3}>
         <Typography variant="h1">Grandelfino</Typography>
-        
-        <Typography variant="body1" fontSize="1.2rem">
-          クラウドファインディング実施中！
-          </Typography>
-        <Button
-         href = "https://readyfor.jp/projects/grandelfino">
-         サイトはこちらから
-         </Button>
+        <Typography variant="body1" frontSize="1.0rem">
+          クラウドファインディング終了！
+          <br />
+          ご支援ありがとうございました
+        </Typography>
+    
          <Card variant="outlined" sx={{ maxWidth: 600, '&:hover': {color: 'black'}}}>
           <CardActionArea href="https://readyfor.jp/projects/grandelfino">
             <CardMedia>
-              <StaticImage src="../images/index/index_9.jpg" alt="Top page" />
+              <StaticImage src="../images/index/index_7.jpg" alt="Top page" />
             </CardMedia>
           </CardActionArea>
         </Card>
