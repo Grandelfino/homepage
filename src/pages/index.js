@@ -123,7 +123,7 @@ const AboutUS = () => {
           </CardActionArea>
         </Card>
          
-         <Typography variant="h1" >クラウドファンディングご支援者芳名</Typography>
+         <Typography variant="h1" >クラウドファンディング支援者ご芳名</Typography>
          <br />
    <Grid container justify="center" alignItems="center">    
       <Grid item sm={4} xs={12} alignItems="center">
