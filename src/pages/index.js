@@ -269,7 +269,7 @@ const AboutUS = () => {
         </Typography>
         <Card variant="outlined" sx={{ maxWidth: 600 }}>
           <CardMedia>
-            <StaticImage src="../images/index/index_6.jpg" alt="Top page" />
+            <StaticImage src="../images/index/index_11.jpg" alt="Top page" />
           </CardMedia>
         </Card>
         <Button
@@ -285,7 +285,7 @@ const AboutUS = () => {
         <Typography variant="body1" fontSize="1.2rem">
           Grandelfinoは京都工芸繊維大学の学生フォーミュラプロジェクトチームです。
           <br />
-          2007年度大会から参戦し、2012・2016・2017・2022・2023年度には総合優勝を果たしました。
+          2007年度大会から参戦し、2012・2016・2017・2022・2023・2024年度には総合優勝を果たしました。
         </Typography>
       </Box>
     </Grid>
