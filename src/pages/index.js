@@ -118,7 +118,7 @@ const AboutUS = () => {
         </Typography>
         <Card variant="outlined" sx={{ maxWidth: 600 }}>
           <CardMedia>
-            <StaticImage src="../images/index/index_12.jpg" alt="Top page" />
+            <StaticImage src="../images/index/index_15.jpg" alt="Top page" />
           </CardMedia>
         </Card>
         <Button
