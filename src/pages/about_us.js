@@ -82,7 +82,7 @@ const AboutUS = () => (
           </Grid>
           <Grid item xs={12} sm={4}>
             <StaticImage
-              src="../images/about_us/Meeting.jpg"
+              src="../images/about_us/Meeting2.jpg"
               alt="Extracurricular"
               style={{ maxHeight: 300, margin: 5 }}
             />
