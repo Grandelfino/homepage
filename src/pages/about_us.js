@@ -101,7 +101,7 @@ const AboutUS = () => (
           </Grid>
           <Grid item xs={12} sm={4}>
             <StaticImage
-              src="../images/about_us/Testing.png"
+              src="../images/about_us/Testing2.png"
               alt="Testing"
               style={{ maxHeight: 300, margin: 5 }}
             />
