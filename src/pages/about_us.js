@@ -85,7 +85,7 @@ const AboutUS = () => (
             <StaticImage
               src="../images/about_us/Meeting2.jpg"
               alt="Extracurricular"
-              style={{ maxHeight: 300, margin: 5 }}
+              style={{ maxHeight: 200, margin: 5 }}
             />
           </Grid>
         </Grid>
