@@ -60,7 +60,7 @@ const AboutUS = () => (
           </Grid>
           <Grid item xs={12} sm={4}>
             <StaticImage
-              src="../images/about_us/2025JMS2.jpg"
+              src="../images/about_us/Exhibition.jpg"
               alt="design"
               width=400
               hight=300
