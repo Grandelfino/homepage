@@ -62,7 +62,7 @@ const AboutUS = () => (
             <StaticImage
               src="../images/about_us/2025JMS2.jpg"
               alt="design"
-              style={{ maxHeight: 300, margin: 5 }}
+              style={{ maxHeight: 200, margin: 5 }}
             />
           </Grid>
         </Grid>
