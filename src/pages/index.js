@@ -115,6 +115,7 @@ const AboutUS = () => {
           Grandelfinoは京都工芸繊維大学の学生フォーミュラプロジェクトチームです。
           <br />
           2007年度大会から参戦し、2012・2016・2017・2022・2023・2024・2025年度には総合優勝を果たしました。
+          2026年度からはEVカテゴリにも参戦し、ICV総合2位、EV総合4位を獲得しました。
         </Typography>
         <Card variant="outlined" sx={{ maxWidth: 600 }}>
           <CardMedia>
