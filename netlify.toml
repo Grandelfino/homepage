@@ -1,5 +1,5 @@
 [[redirects]]
 from = "https://www.grandelfino.net/blog/*"
-to = "https://blog.grandelfino.net"
+to = "https://note.com/grandelfino"
 status = 301
 force = true
