@@ -63,7 +63,7 @@ const AboutUS = () => (
               src="../images/about_us/Exhibition.jpg"
               alt="design"
               width=400
-              hight=300
+              height=300
             />
           </Grid>
         </Grid>
