@@ -132,7 +132,7 @@ const FootNav = () => {
             style={{ color: 'white' }}
           >
             <StyledLink
-              to="https://blog.grandelfino.net/"
+              to="https://note.com/grandelfino"
               target="_blank"
               color="white"
             >

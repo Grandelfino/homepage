@@ -126,7 +126,7 @@ export default function NavBar(props) {
         <ListItem
           button
           component={Link}
-          to="https://blog.grandelfino.net/"
+          to="https://note.com/grandelfino"
           target="_blank"
         >
           <ListItemIcon>
