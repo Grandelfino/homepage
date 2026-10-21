@@ -62,8 +62,8 @@ const AboutUS = () => (
             <StaticImage
               src="../images/about_us/Exhibition.jpg"
               alt="design"
-              width={400}
-              height={300}
+              width={280}
+              height={210}
             />
           </Grid>
         </Grid>
