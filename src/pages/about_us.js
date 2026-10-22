@@ -112,6 +112,8 @@ const AboutUS = () => (
             />
           </Grid>
         </Grid>
+        </Grid>
+        </Grid>
       </Paper>
     </Layout>
   </>
