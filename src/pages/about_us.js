@@ -40,7 +40,6 @@ const AboutUS = () => (
             />
         <Divider />
           </Grid>
-        </Grid>
         <Typography variant="h1">活動内容</Typography>
         <Typography variant="body1">
           Grandelfinoの活動は大きく分けて以下の3つに分類されます。
